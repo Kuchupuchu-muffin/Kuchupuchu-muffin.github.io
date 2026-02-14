@@ -69,10 +69,10 @@
   <h1>Here are your gifts Cutiee 🎁💘</h1>
   <img src="pic2.jpg" class="img-display" />
   <div class="gif-container">
-    <img src="gif1.gif" onclick="goTo(3)">
-    <img src="gif2.gif" onclick="goTo(4)">
-    <img src="gif3.gif" onclick="goTo(5)">
-    <img src="gif4.gif" onclick="goTo(6)">
+    <img src="gif.gif" onclick="goTo(3)">
+    <img src="gif.gif" onclick="goTo(4)">
+    <img src="gif.gif" onclick="goTo(5)">
+    <img src="gif.gif" onclick="goTo(6)">
   </div>
 </div>
 
@@ -137,3 +137,4 @@ function backToGifts() {
 
 </body>
 </html>
+
