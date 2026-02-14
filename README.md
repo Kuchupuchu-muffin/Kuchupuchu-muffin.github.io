@@ -69,10 +69,10 @@
   <h1>Here are your gifts Cutiee 🎁💘</h1>
   <img src="pic2.jpeg" class="img-display" />
   <div class="gif-container">
-    <img src="gif.mp4" onclick="goTo(3)">
-    <img src="gif.mp4" onclick="goTo(4)">
-    <img src="gif.mp4" onclick="goTo(5)">
-    <img src="gif.mp4" onclick="goTo(6)">
+    <img src="pic7.jpeg" onclick="goTo(3)">
+    <img src="pic7.jpeg" onclick="goTo(4)">
+    <img src="pic7.jpeg" onclick="goTo(5)">
+    <img src="pic7.jpeg" onclick="goTo(6)">
   </div>
 </div>
 
