@@ -105,6 +105,7 @@
     I'm really sorry for not talking to you. I never meant to hurt you, and it
     truly matters to me that you're happy. Please forgive me, Cutiee — your smile
     means the world to me and I promise to do better always. 💖🙏
+      <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
   </p>
 </div>
 
