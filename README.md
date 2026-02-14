@@ -79,7 +79,7 @@
 <!-- PAGE 3 (Kiss) -->
 <div id="page3" style="display:none;">
   <h1>Here is your valentine kiss cutiee 😘💋</h1>
-  <img src="pic3.jpeg" class="img-display" />
+  <img src="pic3.gif" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
@@ -93,7 +93,7 @@
 <!-- PAGE 5 (Chocolate) -->
 <div id="page5" style="display:none;">
   <h1>Here is your chocolate Cutiee 🍫💗</h1>
-  <img src="pic5.jpeg" class="img-display" />
+  <img src="pic5.gif" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
