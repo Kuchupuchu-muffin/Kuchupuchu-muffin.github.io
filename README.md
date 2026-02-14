@@ -58,7 +58,7 @@
 <!-- PAGE 1 -->
 <div id="page1">
   <h1>Will you be my Valentine??? 💖</h1>
-  <img src="pic1.jpg" class="img-display" />
+  <img src="pic1.jpeg" class="img-display" />
   <br><br>
   <button class="btn" onclick="yesClicked()">Yes 😍</button>
   <button class="btn" id="noBtn" onclick="moveNo()">No 😭</button>
@@ -67,40 +67,40 @@
 <!-- PAGE 2 -->
 <div id="page2" style="display:none;">
   <h1>Here are your gifts Cutiee 🎁💘</h1>
-  <img src="pic2.jpg" class="img-display" />
+  <img src="pic2.jpeg" class="img-display" />
   <div class="gif-container">
-    <img src="gif.gif" onclick="goTo(3)">
-    <img src="gif.gif" onclick="goTo(4)">
-    <img src="gif.gif" onclick="goTo(5)">
-    <img src="gif.gif" onclick="goTo(6)">
+    <img src="gif.mp4" onclick="goTo(3)">
+    <img src="gif.mp4" onclick="goTo(4)">
+    <img src="gif.mp4" onclick="goTo(5)">
+    <img src="gif.mp4" onclick="goTo(6)">
   </div>
 </div>
 
 <!-- PAGE 3 (Kiss) -->
 <div id="page3" style="display:none;">
   <h1>Here is your valentine kiss cutiee 😘💋</h1>
-  <img src="pic3.jpg" class="img-display" />
+  <img src="pic3.jpeg" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
 <!-- PAGE 4 (Rose) -->
 <div id="page4" style="display:none;">
   <h1>Here is your rose Cutiee 🌹💕</h1>
-  <img src="pic4.jpg" class="img-display" />
+  <img src="pic4.jpeg" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
 <!-- PAGE 5 (Chocolate) -->
 <div id="page5" style="display:none;">
   <h1>Here is your chocolate Cutiee 🍫💗</h1>
-  <img src="pic5.jpg" class="img-display" />
+  <img src="pic5.jpeg" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
 <!-- PAGE 6 (Sorry Note) -->
 <div id="page6" style="display:none;">
   <h1>I'm really sorry, Cutiee 😔💞</h1>
-  <img src="pic6.jpg" class="img-display" />
+  <img src="pic6.jpeg" class="img-display" />
   <p style="width:80%; margin:auto; font-size:20px;">
     I'm really sorry for not talking to you. I never meant to hurt you, and it
     truly matters to me that you're happy. Please forgive me, Cutiee — your smile
