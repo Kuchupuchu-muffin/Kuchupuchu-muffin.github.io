@@ -46,7 +46,7 @@
 <!-- PAGE 1 -->
 <div id="page1">
   <h1>Will you be my Valentine??? 💖</h1>
-  <img src="pic1.jpg" class="img-display" />
+  <img src="you.jpg" class="img-display" />
   <br><br>
   <button class="btn" onclick="yesClicked()">Yes 😍</button>
   <button class="btn" id="noBtn" onclick="moveNo()">No 😭</button>
@@ -55,33 +55,33 @@
 <!-- PAGE 2 -->
 <div id="page2" style="display:none;">
   <h1>Here are your gifts Cutiee 🎁💘</h1>
-  <img src="pic2.jpg" class="img-display" />
+  <img src="cat 🥰.jpg" class="img-display" />
   <div class="gif-container">
-    <img src="gif1.gif" onclick="goTo(3)">
-    <img src="gif2.gif" onclick="goTo(4)">
-    <img src="gif3.gif" onclick="goTo(5)">
-    <img src="gif4.gif" onclick="goTo(6)">
+    <img src="gif.gif" onclick="goTo(3)">
+    <img src="gif.gif" onclick="goTo(4)">
+    <img src="gif.gif" onclick="goTo(5)">
+    <img src="gif.gif" onclick="goTo(6)">
   </div>
 </div>
 
 <!-- PAGE 3 (Kiss) -->
 <div id="page3" style="display:none;">
   <h1>Here is your valentine kiss cutiee 😘💋</h1>
-  <img src="pic3.jpg" class="img-display" />
+  <img src="kiss.jpg" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
 <!-- PAGE 4 (Rose) -->
 <div id="page4" style="display:none;">
-  <h1>Here is your rose Cutiee 🌹💕</h1>
-  <img src="pic4.jpg" class="img-display" />
+  <h1>Here is your flower Cutiee 🌹💕</h1>
+  <img src="flower.jpg" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
 <!-- PAGE 5 (Chocolate) -->
 <div id="page5" style="display:none;">
   <h1>Here is your chocolate Cutiee 🍫💗</h1>
-  <img src="pic5.jpg" class="img-display" />
+  <img src=".jpg" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
