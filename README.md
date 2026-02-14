@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -8,22 +8,28 @@
   body {
     margin: 0;
     font-family: "Comic Sans MS", "Poppins", cursive;
-    background-color: pink;
+    background: linear-gradient(#ffb6d9, #ffcce6);
     color: white;
     text-align: center;
   }
   h1, h2, p {
     color: white;
+    text-shadow: 2px 2px 5px #ff69b4;
   }
   .btn {
     background: #ff69b4;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     margin: 10px;
-    border: 2px solid black;
-    border-radius: 10px;
-    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-size: 22px;
     cursor: pointer;
+    box-shadow: 0 0 10px #ff69b4;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    transform: scale(1.1);
   }
   #noBtn {
     position: absolute;
@@ -32,12 +38,18 @@
     width: 180px;
     margin: 10px;
     border: 3px solid black;
-    border-radius: 12px;
+    border-radius: 18px;
+    box-shadow: 0 0 12px #ff85c2;
+    transition: 0.3s;
+  }
+  .gif-container img:hover {
+    transform: scale(1.1);
   }
   .img-display {
     width: 260px;
     border: 3px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #ff69b4;
   }
 </style>
 </head>
@@ -46,7 +58,7 @@
 <!-- PAGE 1 -->
 <div id="page1">
   <h1>Will you be my Valentine??? 💖</h1>
-  <img src="you.jpg" class="img-display" />
+  <img src="pic1.jpg" class="img-display" />
   <br><br>
   <button class="btn" onclick="yesClicked()">Yes 😍</button>
   <button class="btn" id="noBtn" onclick="moveNo()">No 😭</button>
@@ -55,33 +67,33 @@
 <!-- PAGE 2 -->
 <div id="page2" style="display:none;">
   <h1>Here are your gifts Cutiee 🎁💘</h1>
-  <img src="cat 🥰.jpg" class="img-display" />
+  <img src="pic2.jpg" class="img-display" />
   <div class="gif-container">
-    <img src="gif.gif" onclick="goTo(3)">
-    <img src="gif.gif" onclick="goTo(4)">
-    <img src="gif.gif" onclick="goTo(5)">
-    <img src="gif.gif" onclick="goTo(6)">
+    <img src="gif1.gif" onclick="goTo(3)">
+    <img src="gif2.gif" onclick="goTo(4)">
+    <img src="gif3.gif" onclick="goTo(5)">
+    <img src="gif4.gif" onclick="goTo(6)">
   </div>
 </div>
 
 <!-- PAGE 3 (Kiss) -->
 <div id="page3" style="display:none;">
   <h1>Here is your valentine kiss cutiee 😘💋</h1>
-  <img src="kiss.jpg" class="img-display" />
+  <img src="pic3.jpg" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
 <!-- PAGE 4 (Rose) -->
 <div id="page4" style="display:none;">
-  <h1>Here is your flower Cutiee 🌹💕</h1>
-  <img src="flower.jpg" class="img-display" />
+  <h1>Here is your rose Cutiee 🌹💕</h1>
+  <img src="pic4.jpg" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
 <!-- PAGE 5 (Chocolate) -->
 <div id="page5" style="display:none;">
   <h1>Here is your chocolate Cutiee 🍫💗</h1>
-  <img src=".jpg" class="img-display" />
+  <img src="pic5.jpg" class="img-display" />
   <br><button class="btn" onclick="backToGifts()">Back 🔙</button>
 </div>
 
