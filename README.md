@@ -169,7 +169,7 @@
 
   <div class="card">
     <div class="emoji">🐱❤️</div>
-    <h2>Aditi,<br>will you be my Valentine?</h2>
+    <h2>Mona,<br>will you be my Valentine?</h2>
 
     <div class="buttons">
       <button id="yes">Yes 💖</button>
